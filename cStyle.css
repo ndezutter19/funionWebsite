@@ -1,0 +1,55 @@
+.linkImages {
+  opacity: 0.6;
+  transition: all .2s ease-in-out;
+  width: 400px;
+  height: 400px;
+  border-style: groove;
+  border-color: black;
+  text-align: center;
+  background-size: cover;
+}
+
+#gr.linkImages{
+  background-image: url("images/ramsay.jpg");
+  
+}
+
+#c.linkImages{
+  background-image: url("https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=425,format=auto/sites/default/files/styles/768x768/public/d8/images/methode/2020/07/21/28bf4560-ca66-11ea-9c1b-809cdd34beb3_image_hires_150739.jpg?itok=0yrN72fP&v=1595315266");
+}
+
+#g.linkImages {
+  background-image: url("images/interviewPic.png");
+}
+
+.linkImages:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#lLinks {
+  position: relative;
+  padding-top: 6%;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 50px;
+}
+
+.middleText {
+  position: relative;
+  top: 50%;
+  background-color: #f1e820;
+  color: #a3d167;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-family: "Georgia";
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,14 @@
+p {
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+}
+
+#fullArticle {
+  width: 60%;
+}
+
+h {
+  font-family: 'Forum', cursive;
+  font-weight: bold;
+}

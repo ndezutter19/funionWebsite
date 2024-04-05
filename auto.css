@@ -1,0 +1,73 @@
+#biosTable
+{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+  position: relative;
+  top: 70px;
+}
+
+p {
+  font-family: 'Dosis', sans-serif;
+}
+
+.rightText {
+  display: table;
+  width: 65%;
+  vertical-align: middle;
+}
+
+#sean.rightText {
+  display: table;
+  width: 85%;
+  vertical-align: middle;
+}
+
+.leftText {
+  display: table;
+  width: 50%;
+  vertical-align: middle;
+}
+
+#chris.leftText {
+  display: table;
+  width: 100%;
+  vertical-align: middle;
+}
+
+
+
+img  {
+  border-style: solid;
+  border-color: black;
+}
+
+p.rightText {
+  float: right;
+}
+
+.bio {
+/*   border-style: solid;
+  border-color: black; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+img.rightText {
+  float: left;
+  width: 35%;
+  height: 35%;
+}
+
+
+
+p.leftText {
+  float: left;
+}
+
+img.leftText {
+  float: right;
+  width: 35%;
+  height: 35%;
+}

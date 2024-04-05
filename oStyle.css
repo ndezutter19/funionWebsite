@@ -1,0 +1,55 @@
+.linkImages {
+  opacity: 0.6;
+  transition: all .2s ease-in-out;
+  width: 400px;
+  height: 400px;
+  border-style: groove;
+  border-color: black;
+  text-align: center;
+  background-size: cover;
+}
+
+#w.linkImages{
+  background-image: url("https://static.grainger.com/rp/s/is/image/Grainger/3ZTF3_AL01");
+  
+}
+
+#d.linkImages{
+  background-image: url("https://images.unsplash.com/photo-1599498253880-13ffa6332c12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFuZCUyMGhvbGRpbmd8ZW58MHx8MHx8&w=1000&q=80");
+}
+
+#tw.linkImages {
+  background-image: url("https://www.thewholesomedish.com/wp-content/uploads/2018/07/Best-Lasagna-550-500x375.jpg");
+}
+
+.linkImages:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#lLinks {
+  position: relative;
+  padding-top: 6%;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 50px;
+}
+
+.middleText {
+  position: relative;
+  top: 50%;
+  background-color: #f1e820;
+  color: #a3d167;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-family: "Georgia";
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
